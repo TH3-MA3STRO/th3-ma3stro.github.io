@@ -30,6 +30,7 @@ skillUnder = sectUnderlines[1];
 
 
 
+
 function checkInVP(element, sub = 0) {
   bounds = element.getBoundingClientRect();
   if (sub != 0) {
