@@ -43,6 +43,7 @@ function headChanger(header, underline, into) {
   if (checkInVP(header)) {
     header.style.opacity = "100";
     header.style.left = "0";
+    header.style.right= "0";
     underline.style.transform = "scale(1,1)";
     underline.style.opacity = "100";
     clearInterval(into);

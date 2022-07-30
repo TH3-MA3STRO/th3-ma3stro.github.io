@@ -14,7 +14,9 @@ body {
     left: 5em;
     transition: opacity 1s, left 800ms;
 }
-
+.header-skill{
+    right: 5em;
+}
 .animated-underline {
     position: absolute;
     width: 7rem;
