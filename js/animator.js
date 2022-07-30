@@ -1,9 +1,7 @@
 let sectionHeaders = document.getElementsByClassName("section-header");
 let sectUnderlines = document.getElementsByClassName("animated-underline");
-let skillHeaders = document.getElementsByClassName("skill-header");
-let progressBars = document.getElementsByClassName("progress");
 let projects = document.querySelectorAll("div.row div.card");
-
+let navLinks = document.getElementsByClassName("nav-link")
 let widthVP = visualViewport.width;
 let heightVP = visualViewport.height;
 let aboutHead, aboutUnder;
@@ -11,30 +9,26 @@ let prog1, prog2, prog3, prog4, prog5;
 let skill1, skill2, skill3, skill4, skill5;
 let projectHead, projectUnder;
 let pro1, pro2, pro3, pro4, pro5, pro6;
-
+console.log(projects.length)
 pro1 = projects[0];
 pro2 = projects[1];
 pro3 = projects[2];
 pro4 = projects[3];
 pro5 = projects[4];
 pro6 = projects[5];
+pro7 = projects[6];
+pro8 = projects[7];
+pro9 = projects[8];
+pro10 = projects[9];
 
 aboutHead = sectionHeaders[0];
 aboutUnder = sectUnderlines[0];
-projectHead = sectionHeaders[1];
-projectUnder = sectUnderlines[1];
+projectHead = sectionHeaders[2];
+projectUnder = sectUnderlines[2];
+skillHead = sectionHeaders[1];
+skillUnder = sectUnderlines[1];
 
-skill1 = skillHeaders[0];
-skill2 = skillHeaders[1];
-skill3 = skillHeaders[2];
-skill4 = skillHeaders[3];
-skill5 = skillHeaders[4];
 
-prog1 = progressBars[0];
-prog2 = progressBars[1];
-prog3 = progressBars[2];
-prog4 = progressBars[3];
-prog5 = progressBars[4];
 
 function checkInVP(element, sub = 0) {
   bounds = element.getBoundingClientRect();
@@ -72,8 +66,7 @@ function procard(card, into) {
     clearInterval(into);
   }
 }
-let interAbout, interProject;
-let interskillpy, interskillboot, interskillhtml, interskillcss, interskilljs;
+let interAbout, interProject, interSkill;
 let intercard1, intercard2, intercard3, intercard4, intercard5, intercard6;
 interAbout = setInterval(
   () => headChanger(aboutHead, aboutUnder, interAbout),
@@ -83,25 +76,8 @@ interProject = setInterval(
   () => headChanger(projectHead, projectUnder, interProject),
   300
 );
-
-interskillpy = setInterval(
-  () => skillChanger(skill1, prog1, interskillpy),
-  300
-);
-interskillboot = setInterval(
-  () => skillChanger(skill2, prog2, interskillboot),
-  300
-);
-interskillhtml = setInterval(
-  () => skillChanger(skill3, prog3, interskillhtml),
-  300
-);
-interskillcss = setInterval(
-  () => skillChanger(skill4, prog4, interskillcss),
-  300
-);
-interskilljs = setInterval(
-  () => skillChanger(skill5, prog5, interskilljs),
+interSkill = setInterval(
+  () => headChanger(skillHead, skillUnder, interSkill),
   300
 );
 
@@ -111,3 +87,8 @@ intercard3 = setInterval(() => procard(pro3, intercard3), 400);
 intercard4 = setInterval(() => procard(pro4, intercard4), 400);
 intercard5 = setInterval(() => procard(pro5, intercard5), 400);
 intercard6 = setInterval(() => procard(pro6, intercard6), 400);
+intercard7 = setInterval(() => procard(pro7, intercard7), 400);
+intercard8 = setInterval(() => procard(pro8, intercard8), 400);
+intercard9 = setInterval(() => procard(pro9, intercard9), 400);
+intercard10 = setInterval(() => procard(pro10, intercard10), 400);
+

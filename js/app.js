@@ -127,7 +127,7 @@ particlesJS("particles-js", {
   retina_detect: true,
 });
 
-var txt = ["Geek", "Programmer", "Tech Enthusiast", "Noob Web Developer"];
+var txt = ["Geek", "Programmer", "Tech Enthusiast", "Web Developer"];
 var spanele = document.getElementById("typed");
 var a = 0;
 let i = 0;

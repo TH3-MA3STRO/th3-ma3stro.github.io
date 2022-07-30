@@ -103,9 +103,10 @@ nav.navbar {
 
 nav.navbar a {
     color: white;
-    transition:all .5s ease;
+    transition: all .45s ease;
 }
 
+nav.navbar a.active,
 nav.navbar a:hover {
     font-weight: 600;
     transform: scale(1.1);
@@ -321,6 +322,7 @@ div.row div.card {
     height: 200%;
 }
 
+
 @keyframes blink {
     from {
         color: inherit;
@@ -337,6 +339,7 @@ div.row div.card {
     }
 }
 
+
 @media (max-width:351px) {
     .card-title {
         font-size: 1.8em;
@@ -347,12 +350,15 @@ div.row div.card {
     }
 }
 
-@media (max-width:251px) {
+@media (max-width:270px) {
     .card-title {
         font-size: 1.5em;
     }
-
+    #navigate{
+        display: none;
+    }
     #intro-text {
         font-size: 1em;
+        text-align: justify;
     }
 }

@@ -1,355 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <script src="../js/fontawesome.js" crossorigin="anonymous"></script>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.js" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="../css/bootstrap.css"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/superslides.css" />
-    <script src="../js/jquery.superslides.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="icon" type="image/gif" href="../assets/icon.gif" />
-    <title>TH3-MA3STRO</title>
-  </head>
 
-  <body data-spy="scroll" data-target="#navbar-example2">
-    <div id="slides">
-      <div class="slides-container">
-        <div id="particles-js"></div>
+<head>
+  <meta charset="UTF-8" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <!-- <script src="../js/fontawesome.js" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://kit.fontawesome.com/f2015fd586.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/f2015fd586.js" crossorigin="anonymous"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/bootstrap.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/superslides.css" />
+  <script src="../js/jquery.superslides.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" type="image/gif" href="../assets/icon.gif" />
+  <title>TH3-MA3STRO</title>
+</head>
+<!-- data-spy="scroll" data-target="#navigate" data-offset="10" -->
+
+<body data-spy="scroll" data-target="#navigate" data-offset="20">
+  <div id="slides">
+    <div class="slides-container">
+      <div id="particles-js"></div>
+    </div>
+    <div class="animated-typer justify-content-center">
+      <div style="
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -webkit-touch-callout : none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;" class="head">
+
+        <h1 id="intro-name">Satyam Jha</h1>
+        <p id="intro-typed">
+          <span id="typed"></span><span class="cursor">|</span>
+        </p>
       </div>
-      <div class="animated-typer justify-content-center">
-        <div class="head">
-          <h1 id="intro-name">Satyam Jha</h1>
-          <p id="intro-typed">
-            <span id="typed"></span><span class="cursor">|</span>
+    </div>
+  </div>
+  <nav id="navigate" class="navbar sticky-top navbar-dark bg-dark justify-content-center">
+    <ul style="padding-left: 2em;" class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" id="home" href="#slides">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="about-me" href="#a">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="about-me" href="#c">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a href="#b" id="projects" class="nav-link">Projects</a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <div class="about-me" id="a">
+      <div style="
+            text-align: center;
+            position: relative;
+            margin-bottom: 6rem;
+            overflow: hidden;
+          ">
+        <h1 class="section-header">About Me</h1>
+        <div class="animated-underline"></div>
+      </div>
+      <div class="card mb-3 mx-auto" style="max-width: 70%;">
+        <div class="row no-gutters">
+          <div class="col-sm-12 col-md-12 col-lg-12" id="card">
+            <img src="../assets/msg779713861-11979.jpg" class="card-img" alt="..." />
+            <div class="card-body">
+              <h1 class="card-title">Hey there!</h1>
+              <p id="intro-text"  class="card-text">
+                I am <span class="highlight">Satyam Jha</span>, currently
+                studying in standard <span class="highlight">12th</span> with <span class="highlight">Physics</span>,
+                <span class="highlight">Chemistry</span> and <span class="highlight">Mathematics</span> as my main
+                subjects. I love
+                coding, and therefore I spend an ample amount of my time coding. I excel in
+                fields like <span class="highlight">Web Development</span>,
+                <span class="highlight">Automation</span>, <span class="highlight">Scripting</span> & <span class="highlight">Differential Calculus</span>
+              </p>
+              <!--  -->
+              <div class="socials">
+                <a target="_blank" title="@th3_ma3stro" href="https://www.twitter.com/th3_ma3stro/"><i
+                    class="fab fa-twitter fa-2x icon"></i></a>
+                <a target="_blank" title="@TH3-MA3STRO" href="https://www.github.com/TH3-MA3STRO"><i
+                    class="fab fa-github fa-2x icon"></i></a>
+                <a target="_blank" title="@maestro__xd" href="https://www.instagram.com/maestro__xd"><i
+                    class="fab fa-instagram fa-2x icon"></i></a>
+                <a target="_blank" title="@maestro__xp" href="https://www.snapchat.com/add/maestro_xp"><i
+                    class="fab fa-snapchat fa-2x icon"></i></a>
+                <!-- ?hr_r=1 -->
+                <a target="_blank" title="@maestro__xp" href="https://www.hackerrank.com/maestro__xp"><i
+                    class="fab fa-hackerrank fa-2x icon"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6" id="skills">
+            <div class="skills">
+              <!--  -->
+              <!--  -->
+              <!--  -->
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="skills container" id="c">
+    <div style="
+            text-align: center;
+            position: relative;
+            margin-bottom: 6rem;
+            overflow: hidden;
+          ">
+      <h1 class="section-header">Skills
+      </h1>
+      <div class="animated-underline"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div  class="card-body">
+          <h3 style="text-decoration: underline;
+          text-decoration-color: gold;
+          " class="card-title"> <i class="head-icon fa-solid fa-code"></i> <br> Scripting</h3>
+          <p style="text-align: left;" class="card-text">
+            <i class="fa-solid fa-arrow-right"></i> Have concocted various magical scripts in various languages like:<br>
+            <br>
+            
+            <i class="fab fa-python"></i> Python <br>
+            <i class="fab fa-node"></i> Nodejs <br>
+            <i class="fa-solid fa-dollar-sign"></i> Bash <br>
           </p>
         </div>
       </div>
-    </div>
-    <nav
-      id="navigate"
-      class="navbar sticky-top navbar-dark bg-dark justify-content-center"
-    >
-      <ul style="padding-left: 2em;" class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#slides">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#a">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="#b" class="nav-link">Projects</a>
-        </li>
-      </ul>
-    </nav>
-    <div>
-      <div class="about-me" id="a">
-        <div
-          style="
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div  class="card-body">
+          <h3 style="text-decoration: underline;
+          text-decoration-color: gold;
+          " class="card-title"><i class="head-icon fa-solid fa-globe"></i> <br>  Web-Dev</h3>
+            <p style="text-align: left;" class="card-text">
+            <i class="fa-solid fa-arrow-right"></i> Can create robust but flexible, industry level websites from scratch using technologies like: <br>
+            <br>
+
+            <i class="fab fa-css3"></i> CSS <br>
+            <i class="fab fa-html5"></i> HTML5 <br>
+            <i class="fab fa-js"></i> Javascript <br>
+            <i class="fab fa-node-js"></i> Nodejs <br>
+            <i class="fa-solid fa-leaf"></i> MongoDB <br>
+
+          </p>
+        </div>
+      </div>
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div  class="card-body">
+          <h3 style="text-decoration: underline;
+          text-decoration-color: gold;
+          " class="card-title"><i class="head-icon fa-solid fa-wrench"></i><br>Tools</h3>
+          <p style="text-align: left;" class="card-text">
+            <i class="fa-solid fa-arrow-right"></i> Can perform various tasks very efficiently using powerful tools like: <br>
+            <br>
+            <i class="fa-solid fa-dollar-sign"></i> Emacs <br>
+            <i class="fa-solid fa-dollar-sign"></i> Vim <br>
+            <i class="fab fa-linux"></i> Linux <br>
+          </p>
+        </div>
+      </div>
+
+      --  -->
+  </div>
+  <div class="projects container" id="b">
+    <div style="
             text-align: center;
             position: relative;
             margin-bottom: 6rem;
             overflow: hidden;
-          "
-        >
-          <h1 class="section-header">About Me</h1>
-          <div class="animated-underline"></div>
+          ">
+      <h1 class="section-header">Projects</h1>
+      <div class="animated-underline"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">IG DLER(cli)</h5>
+          <p class="card-text">
+            A cli version of the ig-dler project, which works on android
+            too!
+          </p>
         </div>
-        <div class="card mb-3 mx-auto" style="max-width: 70%;">
-          <div class="row no-gutters">
-            <div class="col-sm-12 col-md-12 col-lg-6" id="card">
-              <img
-                src="../assets/91599685_2573069862907319_7674867401288056832_o.jpg"
-                class="card-img"
-                alt="..."
-              />
-              <div class="card-body">
-                <h1 class="card-title">Hey there guys!</h1>
-                <p id="intro-text" class="card-text">
-                  I am <span class="highlight">Satyam Jha</span>, currently
-                  studying in class 10th in Jesus & Mary Academy. I love to
-                  code, and therefore I spend most of my time coding. I excel in
-                  fields like <span class="highlight">Web Scraping</span> &
-                  <span class="highlight">Web Automation</span>
-                </p>
-                <div class="socials">
-                  <a href="https://www.facebook.com/satyam.jha.520/"
-                    ><i class="fab fa-facebook fa-2x icon"></i
-                  ></a>
-                  <a href="https://www.github.com/TH3-MA3STRO"
-                    ><i class="fab fa-github fa-2x icon"></i
-                  ></a>
-                  <a href="https://www.instagram.com/th3_ma3stro"
-                    ><i class="fab fa-instagram fa-2x icon"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6" id="skills">
-              <div class="skills">
-                <div
-                  style="
-                    text-align: left;
-                    position: relative;
-                    overflow: hidden;
-                  "
-                >
-                  <h3 class="skill-header">Python</h3>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 80%;"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    80%
-                  </div>
-                </div>
-                <div
-                  style="
-                    text-align: left;
-                    position: relative;
-                    overflow: hidden;
-                  "
-                >
-                  <h3 class="skill-header">Bootstrap</h3>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 55%;"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    55%
-                  </div>
-                </div>
-                <div
-                  style="
-                    text-align: left;
-                    position: relative;
-                    overflow: hidden;
-                  "
-                >
-                  <h3 class="skill-header">HTML5</h3>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 60%;"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    60%
-                  </div>
-                </div>
-                <div
-                  style="
-                    text-align: left;
-                    position: relative;
-                    overflow: hidden;
-                  "
-                >
-                  <h3 class="skill-header">CSS3</h3>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 45%;"
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    45%
-                  </div>
-                </div>
-                <div
-                  style="
-                    text-align: left;
-                    position: relative;
-                    overflow: hidden;
-                  "
-                >
-                  <h3 class="skill-header">Javascript</h3>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 40%;"
-                    aria-valuenow="40"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    40%
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="card-footer">
+          <a href="https://github.com/TH3-MA3STRO/ig-dler_cli" class="btn btn-primary btn-top">Github</a>
         </div>
       </div>
-      <div class="projects container" id="b">
-        <div
-          style="
-            text-align: center;
-            position: relative;
-            margin-bottom: 6rem;
-            overflow: hidden;
-          "
-        >
-          <h1 class="section-header">Projects</h1>
-          <div class="animated-underline"></div>
+      
+      
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">IG DLER</h5>
+          <p class="card-text">
+            Download stories, highlights, posts of an instagram account,
+            without using any API
+          </p>
         </div>
-        <div class="row justify-content-center">
-          <div
-            class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body">
-              <h5 class="card-title">IG DLER(cli)</h5>
-              <p class="card-text">
-                A cli version of the ig-dler project, which works on android
-                too!
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/TH3-MA3STRO/ig-dler_cli"
-                class="btn btn-primary btn-top"
-                >Github</a
-              >
-            </div>
-          </div>
-          <div
-            class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body">
-              <h5 class="card-title">IG DLER</h5>
-              <p class="card-text">
-                Download stories, highlights, posts of an instagram account,
-                without using any API
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://www.github.com/TH3-MA3STRO/ig-dler"
-                class="btn btn-primary btn-bottom"
-                >Github</a
-              >
-            </div>
-          </div>
-          <div
-            class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body">
-              <h5 class="card-title">Messenger Spammer</h5>
-              <p class="card-text">
-                Spam your friends on messenger with this easy to use tool :P
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://www.github.com/TH3-MA3STRO/messenger-spammer"
-                class="btn btn-primary btn-top"
-                >Github</a
-              >
-            </div>
-          </div>
-          <div
-            class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body">
-              <h5 class="card-title">Whatsapp Spammer</h5>
-              <p class="card-text">
-                Spam your WhatsApp groups and contacts with hundreds of messages
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/TH3-MA3STRO/whatsapp-spammer"
-                class="btn btn-primary btn-bottom"
-                >Github</a
-              >
-            </div>
-          </div>
-          <div
-            class="card col col-lg-1 col-md-4 col-xl-3 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body">
-              <h5 class="card-title">IG Tools</h5>
-              <p class="card-text">
-                Spam your friends' Instagram profile or #tags easily
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/TH3-MA3STRO/ig-tools"
-                class="btn btn-primary btn-top"
-                >Github</a
-              >
-            </div>
-          </div>
-          <div
-            class="card col col-lg-1 col-md-4 col-xl-3 col-sm-5 col-11"
-            style="width: 100em;"
-          >
-            <div class="card-body" style="position: relative;">
-              <h5 class="card-title">Portfolio</h5>
-              <p class="card-text">My portfolio website!</p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/TH3-MA3STRO/th3-ma3stro.github.io"
-                class="btn mt-auto btn-primary btn-bottom"
-                >Github</a
-              >
-            </div>
-          </div>
+        <div class="card-footer">
+          <a href="https://www.github.com/TH3-MA3STRO/ig-dler" class="btn btn-primary btn-bottom">Github</a>
+        </div>
+      </div>
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">Chatapp</h5>
+          <p class="card-text">
+            A chat app built with nodejs, socket.io, express and mongodb, with authentication using passportjs
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.github.com/TH3-MA3STRO/chatapp" class="btn btn-primary btn-top">Github</a>
+        </div>
+      </div>
+
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">Messenger Spammer</h5>
+          <p class="card-text">
+            Spam your friends on messenger with this easy to use tool :P
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.github.com/TH3-MA3STRO/messenger-spammer" class="btn btn-primary btn-top">Github</a>
+        </div>
+      </div>
+      <div class="card col col-lg-1 col-xl-3 col-md-4 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">Whatsapp Spammer</h5>
+          <p class="card-text">
+            Spam your WhatsApp groups and contacts with hundreds of messages
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/TH3-MA3STRO/whatsapp-spammer" class="btn btn-primary btn-bottom">Github</a>
+        </div>
+      </div>
+      <div class="card col col-lg-1 col-md-4 col-xl-3 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body">
+          <h5 class="card-title">IG Tools</h5>
+          <p class="card-text">
+            Spam your friends' Instagram profile or #tags easily
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/TH3-MA3STRO/ig-tools" class="btn btn-primary btn-top">Github</a>
+        </div>
+      </div>
+
+      <div class="card col col-lg-1 col-md-4 col-xl-3 col-sm-5 col-11" style="width: 100em;">
+        <div class="card-body" style="position: relative;">
+          <h5 class="card-title">Portfolio</h5>
+          <p class="card-text">My portfolio website!</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/TH3-MA3STRO/th3-ma3stro.github.io"
+            class="btn mt-auto btn-primary btn-bottom">Github</a>
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="outro">
-        <h1>
-          Designed & Developed by <span class="highlight">Satyam Jha</span> ©
-          2020
-        </h1>
-        <h1>
-          Special Thanks to
-          <a class="highlight" href="https://swapnilsoni1999.github.io/"
-            >Swapnil Soni</a
-          >, <a href="https://vipuljha.com/" class="highlight">Vipul Jha</a>,
-          <a href="https://nishargshah.com" class="highlight">Nisharg Shah</a>,
-          <span class="highlight">Shubham Jha</span> for helping and for design
-          inspirations.
-        </h1>
-      </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="outro">
+      <h1>
+        Designed & Developed by <span class="highlight">Satyam Jha</span> ©
+        2022
+      </h1>
+      <h1>
+        Special Thanks to
+        <a class="highlight" href="https://swapnilsoni1999.github.io/">Swapnil Soni</a>, <a href="https://vipuljha.com/"
+          class="highlight">Vipul Jha</a>,
+        <a href="https://nishargshah.com" class="highlight">Nisharg Shah</a>,
+        <span class="highlight">Shubham Jha</span> for helping and for design
+        inspirations.
+      </h1>
     </div>
-  </body>
-  <script src="../js/particles.js"></script>
-  <script src="../js/app.js"></script>
-  <script src="../js/animator.js"></script>
+  </div>
+</body>
+<script src="../js/particles.js"></script>
+<script src="../js/app.js"></script>
+<script src="../js/animator.js"></script>
+
 </html>
