@@ -338,7 +338,12 @@ div.row div.card {
         margin-bottom: 1.5em;
     }
 }
+@media (max-width:410px) {
 
+    .skill-nav{
+        display: none;
+    }
+}
 
 @media (max-width:351px) {
     .card-title {
