@@ -127,7 +127,7 @@ particlesJS("particles-js", {
   retina_detect: true,
 });
 
-var txt = ["Geek", "Programmer", "Tech Enthusiast", "Web Developer"];
+var txt = ["Humble","Geek", "Programmer", "Tech Enthusiast", "Web Developer"];
 var spanele = document.getElementById("typed");
 var a = 0;
 let i = 0;
@@ -166,9 +166,7 @@ intervalVal = setInterval(type, 100);
 $("#navigate a").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
-
     var hash = this.hash;
-
     $("html, body").animate(
       {
         scrollTop: $(hash).offset().top,

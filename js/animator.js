@@ -20,6 +20,7 @@ pro7 = projects[6];
 pro8 = projects[7];
 pro9 = projects[8];
 pro10 = projects[9];
+pro11 = projects[10]
 
 aboutHead = sectionHeaders[0];
 aboutUnder = sectUnderlines[0];
@@ -93,4 +94,6 @@ intercard7 = setInterval(() => procard(pro7, intercard7), 400);
 intercard8 = setInterval(() => procard(pro8, intercard8), 400);
 intercard9 = setInterval(() => procard(pro9, intercard9), 400);
 intercard10 = setInterval(() => procard(pro10, intercard10), 400);
+intercard11 = setInterval(() => procard(pro11, intercard11), 400);
+
 
